@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9b0c9b68da.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="js-clock clock">
+        <h3>00:00</h3>
+      </div>
+      <form class="js-nameForm nameForm">
+        <input
+          class="nameForm__input"
+          type="text"
+          placeholder="Type your name here"
+        />
+      </form>
+      <div class="js-greetings greetings">
+        <span class="js-greetings__title"></span>
+        <button
+          title="change name"
+          class="js-greetings__btn greetings__btn"
+        ></button>
+      </div>
+      <div class="toDoContainer">
+        <form class="js-toDoForm toDoForm">
+          <input
+            class="toDoForm__input"
+            type="text"
+            placeholder="Write a To Do here"
+          />
+        </form>
+        <ul class="js-toDoList toDoList"></ul>
+      </div>
+      <span class="js-weather weather"></span>
+    </div>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="toDo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
